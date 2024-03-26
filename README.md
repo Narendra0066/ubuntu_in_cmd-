@@ -90,3 +90,40 @@ Setting up the Windows Subsystem for Linux (WSL) and installing a Linux distribu
    - It will prompt you to enter a URL. Once you enter a URL, it will open in `w3m` within the WSL environment.
 
 That's it! You've now set up `w3m` within Windows using the Windows Subsystem for Linux (WSL) entirely from the command prompt. You can now use `w3m` to browse the web from the command line.
+
+
+To set up the Linux distribution after installing it via Windows Subsystem for Linux (WSL) from the command prompt, you can follow these steps:
+
+1. **Launch the installed Linux distribution from CMD**:
+   - You can launch the Linux distribution by executing its executable file from the command prompt. Usually, the executable is named after the distribution you installed. For example, for Ubuntu, the executable is `ubuntu.exe`.
+   - Navigate to the directory where the Linux distribution is installed. Typically, it's located under `C:\Users\%USERNAME%\AppData\Local\Packages`.
+   - Once you're in the directory, execute the executable file. For example, if you installed Ubuntu, you would run:
+     ```
+     ubuntu.exe
+     ```
+
+2. **Complete the setup**:
+   - After launching the Linux distribution, it will begin the setup process.
+   - Follow the on-screen instructions to complete the setup, including creating a user account and setting up a password.
+
+Here's a step-by-step guide to launching and setting up the Ubuntu distribution from CMD:
+
+1. **Launch CMD as Administrator**:
+   - Press `Win + X` and choose "Command Prompt (Admin)".
+
+2. **Navigate to the Linux distribution directory**:
+   - Run the following command to navigate to the directory where the Linux distribution is installed. Replace `<Distribution>` with the name of the Linux distribution you installed.
+     ```
+     cd C:\Users\%USERNAME%\AppData\Local\Packages\<Distribution>
+     ```
+
+3. **Launch the Linux distribution**:
+   - Run the executable file for the Linux distribution. For Ubuntu, you would run:
+     ```
+     ubuntu.exe
+     ```
+
+4. **Complete the setup**:
+   - Follow the on-screen instructions to complete the setup, including creating a user account and setting up a password.
+
+After completing these steps, you will have set up the Linux distribution, and you can start using it from the command prompt. You can then proceed to install `w3m` or any other packages you need within the Linux environment.
